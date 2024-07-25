@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazonlogo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+   
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/**box2**/
+.add-f{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-s{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+/**box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    background-color: rgba(255, 217, 0, 0.669);
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+
+}
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+.nav-s{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**box5**/
+.nav-cart i{
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**panel**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/**hero section**/
+
+.slider{
+    width: 100%;
+    padding: 2px 0px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 250px;
+    padding-right: 20px;
+    animation: 20s sliderimages infinite;
+}
+.slider_image{
+    display: flex;
+    padding: 0px 10px;
+   
+}
+.slider{
+    width: 100%;
+    display: flex;
+}
+.btn-container{
+    margin: auto;
+    width: 1px;
+}
+.btn{
+    padding: 30px 10px;
+    background-color: white;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+
+}
+.btn-right{
+    position: relative;
+    left: -40px;
+}
+.btn-left{
+    position: relative;
+}
+/**slider image**/
+@keyframes sliderimages {
+    0%{
+        transform: translate(0);
+    }
+    15%{
+        transform: translate(-100%);
+    }
+    30%{
+        transform: translate(-200%);
+    }
+    45%{
+        transform: translate(-300%);
+    }
+    60%{
+        transform: translate(-400%);
+    }
+   75%{
+        transform: translate(-500%);
+    }
+    90%{
+        transform: translate(-600%);
+    }
+}
+
+/**shop section**/
+
+.box{
+    height: 300px;
+    border: 1px solid black;
+    width: 22%;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 85, 0);
+    
+}
+.shop-section1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+}
+.box1{
+    background-image: url("watch.webp");
+    background-size: cover;
+}
+.box2{
+    background-image: url("schoose.webp");
+    background-size: cover;
+}
+.box3{
+background-image: url("mobile2.webp");
+background-size: cover;
+}
+.box4{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+}
+.box5{
+    background-image: url("mobile1.webp");
+    background-size: cover;
+}.box6{
+    background-image: url("earburd.webp");
+    background-size: cover;
+}
+.box7{
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+}
+.box8{
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+}
+.box9{
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+}
+.box10{
+    background-image: url("-original-imagq66hzfdt92my.webp");
+    background-size: cover;
+}
+.box11{
+    background-image: url("600-600gm-certified-organic-flax-seeds-raw-superfood-for-weight-original-imah2m4wwbrm5kv4.webp");
+    background-size: cover;
+}
+.box12{
+    background-image: url("m-mss22ksho010a-metronaut-original-imagevp4bkmjcs7r.webp");
+    background-size: cover;
+}
+.name{
+    background-color:white;
+    height: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+}
+/**footer**/
+footer{
+    margin-top: 10px;
+}
+.foot-panel1{
+    background-color:#222f3d ;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 10px;
+}
+.foot-panel2{
+    background-color: #0c243d ;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+}
+.foot-panel3{
+    background-color: black;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    background-image: url("amazonlogo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #73e81a;
+    color: rgb(18, 18, 18);
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    
+}
