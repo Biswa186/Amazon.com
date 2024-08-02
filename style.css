@@ -201,7 +201,6 @@ img{
     justify-content: space-evenly;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: rgb(255, 85, 0);
     
 }
 .shop-section1{
@@ -209,14 +208,12 @@ img{
     justify-content: space-evenly;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: white;
 }
 .shop-section2{
     display: flex;
     justify-content: space-evenly;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: green;
 }
 .box1{
     background-image: url("watch.webp");
